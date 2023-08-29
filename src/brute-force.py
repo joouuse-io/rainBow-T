@@ -6,7 +6,7 @@ import os
 def work(start, end):
 	f = open("rainbowtable/rainbow_"+str(start)+".txt", "w")
 	for j in range(start,end):
-		tmp=str(j)+"salt_for_you"
+		tmp=str(j)
 		data=tmp
 		#print(data)
 		for i in range(0,500):
